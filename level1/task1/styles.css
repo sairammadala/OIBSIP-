@@ -1,0 +1,122 @@
+body{
+    height: 150vh;
+    width: 100%;
+    background-color: lightgray;
+}
+
+.title{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;    
+    width: auto;
+    height: 100%;
+}
+
+.heading{
+    margin-top: 78px;
+    margin-left: 20px;
+}
+
+.title h1{
+    position: relative;
+    right : 10px;
+    text-align: center;
+    letter-spacing: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+
+.navbar{
+    margin-top: 2%;
+    margin-left: 50%;
+    margin-bottom: 2%;
+    transform: translate(-50%,0%);
+    background-color: rgba(0, 0, 0, 0.759);
+    width: 72vw;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.navbar a{
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.main_card{
+    margin-left: 50%;
+    transform: translate(-50%,0%);  
+    font-family: 'Times New Roman', Times, serif;  
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4F8iRtlg338vlFfxoH37l5-JyYczkbfgWUg&usqp=CAU");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 72vw;
+    height: 100%;
+    margin-top: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.container{
+    display: flex;
+    width: 100vw;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    
+}
+
+.cards{
+text-align: center;
+ background-color: antiquewhite;
+ width: 346px;
+ height: 100%;
+ margin: 10px;
+ border-radius: 15px;
+}
+.cards h1{
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+    padding-top: 20px;
+    padding-left: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.cards a{
+    position: relative;
+    padding-left: 15px;
+    bottom: 100%;
+    
+}
+.cards img{
+    position: relative; 
+    padding-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 20px;
+}
+
+.cards p{
+    font-size: small;
+    position: relative; 
+    padding-bottom: 10px;
+}
+
+#footer_img{
+    width: 70px;
+    height: 70px;
+}
+
+.wrapper{
+    background-color: darkgray;
+    width: 100vw;
+}
+
+.time p{
+    text-align: center;
+}
